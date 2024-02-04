@@ -9,6 +9,7 @@ body{
     height: 100%;
     width: 100%;
 }
+/* This styling is for main div*/
 #maindiv{
     background-color: #111;
     height: 100%;
@@ -16,7 +17,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; /*in CSS sets the direction of the flex container's main axis
+                             to be vertical, arranging flex items from top to bottom.*/
 }
 #maindiv>h1 {
     font-size: 48px;
