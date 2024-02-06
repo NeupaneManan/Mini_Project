@@ -11,7 +11,7 @@ body{
 }
 /* This styling is for main div*/
 #maindiv{
-    background-color: #111;
+    background-color: #122;
     height: 100%;
     width: 100%;
     display: flex;
@@ -32,6 +32,7 @@ body{
 }
 #maindiv>h1 span img{
     height: 70px;
+    rotate: 0deg;
     transition: 0.3s ease;
 }
 
@@ -135,7 +136,6 @@ button img{
 
 #decryption {
     width: 45%;
-    display: flex;
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
